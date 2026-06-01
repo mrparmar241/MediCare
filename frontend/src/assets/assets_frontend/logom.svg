@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="black"/>
+
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C6922E"/>
+      <stop offset="50%" stop-color="#F7E27C"/>
+      <stop offset="100%" stop-color="#B67A1E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Medical Cross -->
+  <path d="M320 290
+           Q320 250 360 250
+           L470 250
+           Q510 250 510 290
+           L510 370"
+        stroke="url(#gold)"
+        stroke-width="28"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+  <path d="M250 380
+           Q210 380 210 420
+           L210 530
+           Q210 570 250 570
+           L360 570"
+        stroke="url(#gold)"
+        stroke-width="28"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+  <path d="M510 640
+           Q510 680 470 680
+           L360 680
+           Q320 680 320 640
+           L320 560"
+        stroke="url(#gold)"
+        stroke-width="28"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+  <!-- Brand Name -->
+  <text x="590" y="500"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="88"
+        font-weight="700"
+        fill="url(#gold)"
+        letter-spacing="6">
+    MEDI CARE
+  </text>
+
+  <!-- Tagline -->
+  <text x="620" y="585"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="36"
+        fill="url(#gold)"
+        letter-spacing="1">
+    — Your Health, Our Priority —
+  </text>
+</svg>

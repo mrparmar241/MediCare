@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* ===== Fonts ===== */
+@font-face {
+  font-family: "Outfit";
+  src:
+    url("./assets/plugins/Fonts/Outfit/Outfit-Bold.woff2") format("woff2"),
+    url("./assets/plugins/Fonts/Outfit/Outfit-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src:
+    url("./assets/plugins/Fonts/Outfit/Outfit-ExtraBold.woff2") format("woff2"),
+    url("./assets/plugins/Fonts/Outfit/Outfit-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src:
+    url("./assets/plugins/Fonts/Outfit/Outfit-Light.woff2") format("woff2"),
+    url("./assets/plugins/Fonts/Outfit/Outfit-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src:
+    url("./assets/plugins/Fonts/Outfit/Outfit-Medium.woff2") format("woff2"),
+    url("./assets/plugins/Fonts/Outfit/Outfit-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src:
+    url("./assets/plugins/Fonts/Outfit/Outfit-Regular.woff2") format("woff2"),
+    url("./assets/plugins/Fonts/Outfit/Outfit-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src:
+    url("./assets/plugins/Fonts/Outfit/Outfit-SemiBold.woff2") format("woff2"),
+    url("./assets/plugins/Fonts/Outfit/Outfit-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+*{
+  font-family: var(--font-Outfit);
+}
+
+
+@theme {
+  --font-Outfit: "Outfit", sans-serif;
+  --color-primary: #5F6FFF;
+}
+
+::-webkit-scrollbar{
+  @apply hidden
+}

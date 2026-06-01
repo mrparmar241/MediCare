@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('../Outfit/Outfit-Bold.woff2') format('woff2'),
+        url('../Outfit/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../Outfit/Outfit-ExtraBold.woff2') format('woff2'),
+        url('../Outfit/Outfit-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../Outfit/Outfit-Light.woff2') format('woff2'),
+        url('../Outfit/Outfit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../Outfit/Outfit-Medium.woff2') format('woff2'),
+        url('../Outfit/Outfit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../Outfit/Outfit-Regular.woff2') format('woff2'),
+        url('../Outfit/Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../Outfit/Outfit-SemiBold.woff2') format('woff2'),
+        url('../Outfit/Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
