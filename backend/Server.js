@@ -19,7 +19,13 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+
+// CORS setup
+app.use(cors({
+  origin: ["https://playful-mandazi-6ebbf9.netlify.app"], 
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 
 //  api endpoints
 app.use('/api/admin',adminRoute)
