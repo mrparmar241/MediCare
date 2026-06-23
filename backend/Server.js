@@ -22,7 +22,7 @@ app.use(express.json())
 
 // CORS setup
 app.use(cors({
-  origin: ["https://playful-mandazi-6ebbf9.netlify.app"], 
+  origin: ["http://localhost:5174", "https://playful-mandazi-6ebbf9.netlify.app"], 
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
