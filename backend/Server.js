@@ -11,21 +11,29 @@ import userRouter from './routes/userRoute.js'
 const app =express()
 const PORT = process.env.PORT || 5000
 
-// MongoDB connection
-connectDB()
-// Cloudinary Connection
-connectCloudinary()
+// CORS setup
+const allowedOrigins = [
+  process.env.FRONTEND_URL,
+  "http://localhost:5173",
+  "http://localhost:5174",
+  "https://playful-mandazi-6ebbf9.netlify.app"
+].filter(Boolean);
 
+app.use(cors({
+  origin: allowedOrigins,
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 
 // middlewares
 app.use(express.json())
 
-// CORS setup
-app.use(cors({
-  origin: ["http://localhost:5174", "https://playful-mandazi-6ebbf9.netlify.app"], 
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
-}));
+// MongoDB connection
+connectDB()
+
+// Cloudinary Connection
+connectCloudinary()
+
 
 //  api endpoints
 app.use('/api/admin',adminRoute)
